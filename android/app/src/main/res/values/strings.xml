@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">edge-journal</string>
+    <string name="title_activity_main">edge-journal</string>
+    <string name="package_name">com.youredgejournal.app</string>
+    <string name="custom_url_scheme">com.youredgejournal.app</string>
+</resources>
