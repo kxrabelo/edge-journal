@@ -1,0 +1,20 @@
+{
+  "name": "Edge Journal with Android",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/java:17": {},
+    "ghcr.io/guiyomh/features/android-sdk:1": {
+      "installPlatform": "true",
+      "platformVersion": "34"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "capacitor.capacitor",
+        "ms-vscode.vscode-typescript-next"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'ANDROID_HOME=/usr/local/android-sdk' >> $HOME/.bashrc && echo 'export ANDROID_HOME' >> $HOME/.bashrc"
+}
